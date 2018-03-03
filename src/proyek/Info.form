@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Home     "/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Profile     "/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="jMenu2MenuSelected"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu2ActionPerformed"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Layanan Perijinan      "/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="jMenu3MenuSelected"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Info       "/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="jMenu4MenuSelected"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel7" min="-2" pref="303" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel8" min="-2" pref="296" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel8" min="-2" pref="140" max="-2" attributes="0"/>
+                  <Component id="jLabel7" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="309" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="E:\PBO\images1.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pemerintah Kabupaten Toba Samosir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dinas Penanaman Modal dan Perijinan Terpadu Satu Pintu"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Info"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="E:\PBO\gbr2.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="E:\PBO\gbr3.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="PELAYANAN DAN KEWENANGAN PENERBITAN IMB&#xa;&#xa;1.Penerimaan berkas Permohonan IMB Rumah Tinggal, kecuali terletak di kompleks (Real Estat) adalah di Loket PTSP di kantor Kecamatan setempat.&#xa;2.Penerimaan berkas dan proses penerbitan IMB Bangunan Rumah Tinggal yang terletak di Kompleks / Real Estat dan Bangunan Umum dengan ketinggian sampai dengan 8 lantai adalah di Loket PTSP di kantor Walikota Kota Administrasi setempat.&#xa;3.Penerimaan berkas dan proses penerbitan IMB Bangunan Umum dengan ketinggian 9 lantai atau lebih, adalah di loket BPTSP Kabupaten Toba Samosir.&#xa;&#xa;I.  PERMOHONAN IMB RUMAH TINGGAL&#xa;1.  TATACARA PENGAJUAN PERMOHONAN IMB (PIMB) RUMAH TINGGAL :&#xa;Pengajuan Permohonan IMB (PIMB) Rumah Tinggal diajukan ke Loket PTSP di kantor Kecamatan setempat.&#xa;Pengajuan PIMB, harus dilengkapi dengan kelengkapan persyaratan sebagaimana telah diatur dalam Peraturan Gubernur No.129 Tahun 2012, tentang Tatacara Pemberian Pelayanan Bidang Perizinan Bangunan.&#xa;Setelah berkas diteliti administratip dan dinilai teknis serta diperiksa lapangan, maka petugas penilai akan menghitung besarnya retribusi IMB.&#xa;Penilai akan membuat Surat Ketetapan Retribusi (SKRD) IMB untuk Pemohon.&#xa;Pemohon IMB harus segera membayar Retribusi IMB ke Kas Daerah/ Bank DKI di Kecamatan, dan akan menerima bukti pembayaran berupa SKRD yang telah di print Tanda Lunas. &#xa;Dengan menyerahkan Bukti Pembayaran SKRD tersebut keloket PTSP, maka berkas Permohonan IMB diproses untuk penerbitan IMB oleh PTSP Kecamatan.&#xa;IMB Rumah Tinggal yang telah diterbitkan dapat diambil oleh Pemohon/ Kuasa di Loket PTSP Kecamatan.&#xa;2.  KELENGKAPAN PERSYARATAN PERMOHONAN IMB (PIMB) RUMAH TINGGAL :&#xa;Mengisi Formulir PIMB dan menandatangani (+cap perusahaan, bila pemohon a/n perusahaan/ pengembang), 1 set,&#xa;Fotocopy Akte Perusahaan (bila pemohon a/n perusahaan), 1 set,&#xa;Fotocopy KTP Pemilik tanah/ Pemohon, 1 lbr,&#xa;Fotocopy NPWP Pemohon, 1 lbr.&#xa;Fotocopy surat kepemilikan tanah, berupa sertifikat tanah dari BPN yang dilegalisir Notaris atau Kartu Kapling dari Pemerintah Daerah/ Pusat (yang dilegalisir Pemerintah Kotamadya/ Instansi Pusat penerbit Kartu Kapling),&#xa;Fotocopy Surat Tagihan dan Bukti Pembayaran PBB tahun berjalan, 1 set,&#xa;Ketetapan Rencana Kota (KRK) dari PTSP, 5 lbr,&#xa;Rencana Tata Letak Bangunan (RTLB), apabila pada lokasi dimaksud karena peruntukannya, disyaratkan RTLB, dari PTSP, 5 lbr,&#xa;Fotocopy SIPPT dari Gub. bila luas tanah 5.000 M2 atau lebih (spt : untuk Real Estat, dsb.), 1 set,&#xa;Gambar Rencana Arsitektur (khusus pada zonasi R.5 / Rumah Besar atau R.9 / Rumah KDB Rendah atau di lokasi yang termasuk gol.Pemugaran,  gambar hrs di tandatangani Perencana pemilik IPTB), 5 set,&#xa;Rekomendasi TPAK untuk perencanaan arsitektur bangunan, bila lokasi bangunan termasuk golongan pemugaran A/ B atau C (Menteng atau Kebayoran Baru), 1 set,&#xa;Perhitungan dan Gambar Rencana Konstruksi yang ditandatangani perencana konstruksi pemilik IPTB (untuk bangunan bertingkat dengan bentang lebih dari 5 meter), 4 set.&#xa;3  BIAYA RETRIBUSI IMB.&#xa;Retribusi IMB Rumah Tinggal, dihitung berdasarkan Rumus Luas Bangunan x Indeks x Harga Satuan Retribusi,  sebagaimana diatur dalam Perda No.3 Tahun 2012, &#xa;Pembayaran Retribusi Rmah Tinggal dapat dilakukan setelah diterbitkan Surat Ketetapan Retribusi Daerah (SKRD) dari Seksi Pelayanan IMB Kecamatan  dan pembayaran dilakukan di Kas Daerah.&#xa;Setelah diperoleh Bukti Pembayaran Retribusi dari Kas Daerah/ Bank DKI, maka lembar untuk P2B diserahkan ke Loket PTSP.&#xa;4.  JANGKA WAKTU PENYELESAIAN IMB RUMAH TINGGAL.&#xa;IMB Rumah Tinggal diterbitkan oleh Kepala Seksi Satlak PTSP Kecamatan setempat.&#xa;Penyelesaian IMB Rumah Tinggal, ditetapkan sesuai ketentuan dalam Peraturan Gubernur No. 129 Tahun 2012, adalah 20 hari kerja.&#xa;IMB yang telah diterbitkan akan diberitahukan melalui SMS atau Telpon kepada pemohon/ Kuasa, dan dapat diambil (dengan membawa bukti pembayaran retribusi IMB dan dengan surat kuasa apabila yang mengambil bukan pemohon) ke Loket PTSP Kecamatan.&#xa;5.  PELAKSANAAN BANGUNAN.&#xa;Pelaksanaan Bangunan dapat dimulai setelah IMB diterbitkan.&#xa;Copy IMB (lebih bagus dilaminating) / Papan Kuning IMB harus dipasang dilokasi pembangunan, di tempat yang mudah dilihat dari jalan.&#xa;Pelaksanaan bangunan harus sesuai dengan IMB yang telah diterbitkan.&#xa;Bila terdapat rencana perubahan atau penambahan, maka sebelum dilaksanakan terlebih dahulu harus diajukan IMB perubahan/ penambahan.&#xa;Dan selama pelaksanaan IMB ( copynya) harus berada di lokasi bangunan, untuk pedoman dalam pembangunan dan pemeriksaan dari petugas pengawasan Seksi Penataan Kota Kecamatan.&#xa;II.  TATACARA PERMOHONAN IMB BANGUNAN UMUM (NON RUMAH TINGGAL) s/d 8 Lantai dan BANGUNAN RUMAH TINGGAL Pemugaran Gol.A dan B, atau Komplek Perumahan.&#xa;&#xa;1.  TATACARA PERMOHONAN IMB (PIMB) BANGUNAN BUKAN RUMAH TINGGAL s/d 8   Lantai dan BANGUNAN RUMAH TINGGAL Pemugaran Gol A dan B atau Komplek Perumahan :&#xa;Pengajuan Permohonan IMB (PIMB) Rumah Tinggal diajukan ke Loket PTSP di kantor Walikota Kota Administrasi setempat.&#xa;Pengajuan IMB, harus dilengkapi dengan kelengkapan persyaratan sebagaimana telah diatur dalam Peraturan Gubernur No.129 Tahun 2012, tentang Tatacara Pemberian Pelayanan di Bidang Perizinan Bangunan.&#xa;Setelah berkas diteliti administratip dan dinilai teknis serta diperiksa lapangan, maka petugas penilai akan menghitung besarnya retribusi IMB.&#xa;Penilai akan membuat Surat Ketetapan Retribusi Daerah (SKRD) IMB untuk Pemohon.&#xa;Pemohon IMB harus segera membayar Retribusi IMB ke Kas Daerah/ Bank DKI di kantor Walikota Kota Administrasi dan akan menerima bukti pembayaran berupa SLRD yang telah di print Lunas.&#xa;Dengan menyerahkan Bukti Pembayaran tersebut keloket PTSP, maka berkas Permohonan IMB diproses untuk diterbitkan IMB oleh PTSP Kota Administrasi.&#xa;IMB Rumah Tinggal Pemugaran dan Bangunan Umum yang telah diterbitkan dapat diambil oleh Pemohon di Loket PTSP Kota Administrasi setempat. &#xa;2. KELENGKAPAN PERSYARATAN PERMOHONAN IMB.&#xa;       a. Mengisi Formulir IMB dan menandatangani (+cap perusahaan/instansi, bila pemohon adalah Badan Hukum),&#xa;&#xa;       b. Fotcopy Akte Pendirian Perusahaan (bila pemohon adalah perusahaan),&#xa;&#xa;       c. Fotocopy KTP Pemohon,&#xa;&#xa;       d. Fotocopy NPWP Pemohon,&#xa;       e. Fotocopy Sertifikat Tanah, yang dilegalisir Notaris &#xa;&#xa;       f. Fotocopy SPT dan Bukti pembayaran PBB tahun berjalan.&#xa;&#xa;      g. Ketetapan Rencana Kota (KRK)  dan RTLB dari PTSP Kota Adm.,&#xa;      h. Fotocopy SIPPT dari Gubernur Provinsi DKI Jakarta, apabila luas tanah daerah perencanaan 5.000 M2 atau lebih,&#xa;&#xa;      i. Gambar Rencana Arsitektur yang ditanda tangani Perencana/ Arsitek pemegang IPTB,&#xa;      j. Hasil Penyelidikan Tanah yang dibuat oleh Konsultan,&#xa;&#xa;     k. Perhitungan dan Gambar Rencana Struktur yang ditanda tangani oleh Perencana Struktur pemegang IPTB,&#xa;&#xa;     l. Persetujuan Hasil Sidang TPKB, apabila bangunan terdapat basement lebih dari 1 lantai, atau bangunan dengan struktur khusus.&#xa;    m. Gambar Rencana Instalasi dan Perlengkapan Bangunan, yang ditanda tangani oleh Perencana Instalasi dan Perlengkapan Bangunan pemegang IPTB, yang meliputi bidang-bidang :&#xa;&#xa;        -  Instalasi Listrik Arus Kuat,&#xa;        -  Instalasi Listrik Arus Lemah,&#xa;        -  Instalasi Tata Udara dalam Gedung,&#xa;        -  Instalasi Pemipaan (plumbing),&#xa;        -  Instalasi Transportasi dalam Gedung (Elevator/ Lift),&#xa;        -  Design Report. &#xa;     p. Persetujuan Hasil Sidang TPIB, apabila luas bangunan 800 M2 atau lebih atau bangunan tertentu yang memerlukan penilaian instalasi khusus.&#xa;&#xa;     q. Rekomendasi UKL/UPL dari BPLHD apabila luas bangunan 2.000 sampai dengan 10.000 M2, atau Rekomendasi AMDAL apabila luas bangunan lebih dari 10.000 M2.&#xa;     r. Surat Penunjukan Pemborong dan Direksi Pengawas Pelaksanaan Bangunan dari Pemilik Bangunan.&#xa;&#xa;     s. Surat Kuasa Pengurusan dari Pemilik/ Pemohon kepada yang mengurus (bila pengurusan oleh bukan pemilik/pemohon).&#xa;&#xa;3  BIAYA RETRIBUSI IMB.&#xa;Retribusi IMB dihitung berdasarkan Luas Bangunan x Indek Bangunan x Harga Satuan Retribusi sebagaimana diatur dalam Perda No.3 Tahun 2012,&#xa;Pembayaran Retribusi IMB dapat dilakukan setelah diterbitkan Surat Ketetapan Retribusi Daerah (SKRD) dari PTSP Kota Admionistrasi dan pembayaran dilakukan di Kas Daerah/ Bank DKI.&#xa;Setelah diperoleh Bukti Pembayaran Retribusi dari Kas Daerah/ Bank DKI, maka lembar untuk PTSP diserahkan ke Loket PTSP&#xa;4.  JANGKA WAKTU PENYELESAIAN IMB.&#xa;IMB bangunan Umum s/d 8 Lantai dan Rumah Tinggal Pemugaran, diterbitkan oleh PTSP Kota Administrasi setempat.&#xa;Penyelesaian IMB Bukan Rumah Tinggal s/d 8 Lantai, sesuai ketentuan dalam SK Gubernur No. 85 Tahun 2006, adalah 25 hari kerja, terhitung sejak persetujuan dokumen teknis.&#xa;IMB yang telah diterbitkan akan diberitahukan melalui SMS atau Telpon kepada pemohon/ Kuasa, dan dapat diambil (dengan membawa bukti pembayaran retribusi IMB dan dengan surat kuasa apabila yang mengambil bukan pemohon) ke Loket PTSP Kota Administrasi setempat.&#xa;5.  PELAKSANAAN BANGUNAN.&#xa;Pelaksanaan Bangunan dapat dimulai setelah IMB diterbitkan.&#xa;Papan IMB harus dipasang dilokasi pembangunan, di tempat yang mudah dilihat dari jalan.&#xa;Pelaksanaan bangunan harus sesuai dengan IMB yang telah diterbitkan.&#xa;Bila terdapat rencana perubahan atau penambahan, maka sebelum dilaksanakan terlebih dahulu harus diajukan PIMB perubahan/ penambahan.&#xa;Dan selama pelaksanaan IMB ( copynya) harus berada di lokasi bangunan, untuk pedoman dalam pembangunan dan pemeriksaan dari petugas pengawasan Suku Dinas Penataan Kota.&#xa;III.  TATACARA PERMOHONAN IMB BANGUNAN UMUM (NON RUMAH TINGGAL) 9 Lantai atau lebih.&#xa;&#xa;1.  TATACARA PENGAJUAN PERMOHONAN IMB (PIMB)&#xa;Pengajuan Permohonan IMB diajukan ke Loket Badan PTSP (BPTSP) Propinsi DKI Jakarta.&#xa;&#xa;Pengajuan IMB, harus dilengkapi dengan kelengkapan persyaratan sebagaimana telah diatur dalam Peraturan Gubernur No.129 Tahun 2012, tentang Tatacara Pemberian Pelayanan di Bidang Perizinan Bangunan..&#xa;&#xa;Setelah berkas diteliti administratip dan dinilai teknis lengkap, maka Gambar Rencana Arsitektur diajukan untuk disidangkan terlebih dahulu di TPAK (Tim Penasehat Arsitektur Kota)&#xa;&#xa;Setelah lulus sidang TPAK maka selanjutnya akan disidangkan Perncanaan Struktur ke TPKB dan Perencanaan Instalasi dan M&amp;E ke TPIB&#xa;&#xa;untuk proses IP/ IMB  akan diperiksa lapangan untuk mencek apakah bangunan sdh dilaksanakan atau belum,&#xa;&#xa;Selanjutnya petugas penilai akan menghitung besarnya retribusi IMB.&#xa;&#xa;Penilai akan membuat Surat Ketetapan Retribusi Daerah (SKRD) IMB untuk Pemohon.&#xa;&#xa;Pemohon IMB harus segera membayar Retribusi IMB ke Kas Daerah/ Bank DKI,  dan pemohon akan menerima bukti pembayaran berupa SKRD yang telah di print Lunas. &#xa;&#xa;Dengan menyerahkan Bukti Pembayaran tersebut keloket BPTSP, maka berkas Permohonan IP/ IMB diproses untuk diterbitkan IP/ IMB &#xa;&#xa;Catatan :&#xa;&#xa;Bila diperlukan untuk segera membangun, maka Setelah Perencanaan Struktur Bawaah lulus TPKB, maka dapat diterbitkan IP Pondasi, dan &#xa;&#xa;setelah Perencanaan Struktur Atas lulus TPKB maka dapat diterbitkan IP Struktur Menyeluruh.&#xa;&#xa;Setelah Perncanaan Instalasi lulus TPIB, maka IMB dapat diterbitkan.&#xa;&#xa;IMB yang telah diterbitkan akan diinformasikan melalui SMS atau Telpon kepada Pemohon/Kuasa, dan &#xa;&#xa;IMB dapat diambil oleh Pemohon/ Kuasa di Loket BPTSP dan Pemohon dapat membeli atau membuat sendiri Papan Kuning dengan diisi data-data bangunan dan IMB untuk dipasang di lokasi proyek.&#xa;&#xa;2. KELENGKAPAN PERSYARATAN PERMOHONAN IMB.&#xa;       a. Mengisi Formulir dan Surat Pernyataan untuk IMB dan menandatangani (+cap perusahaan/instansi, bila pemohon adalah Badan Hukum),&#xa;&#xa;       b. Fotcopy Akte Pendirian Perusahaan dan Akte Perubahan terakhir serta Pengesahan Kemenkumham (bila pemohon adalah perusahaan),&#xa;&#xa;       c. Fotocopy KTP Pemohon,&#xa;&#xa;       d. Fotocopy NPWP Pemohon/ Perusahaan,&#xa;       e. Fotocopy Sertifikat Tanah, yang telah dilegalisir Notaris,&#xa;&#xa;       f. Fotocopy SPT dan Bukti pembayaran PBB tahun berjalan.&#xa;&#xa;      g. Ketetapan Rencana Kota (KRK)  dan Rencana Tata Letak Bangunan (RTLB/ Blokplan) dari BPTSP,&#xa;       i. Fotocopy SIPPT dari Gubernur Provinsi DKI Jakarta, apabila luas tanah daerah perencanaan 5.000 M2 atau lebih,&#xa;&#xa;      j. Gambar Rencana Arsitektur yang ditanda tangani Perencana/ Arsitek pemegang IPTB,&#xa;      k. Rekomendasi hasil persetujuan TPAK, apabila luas bangunan 9 Lantai atau lebih,&#xa;&#xa;      l. Hasil Penyelidikan Tanah yang dibuat oleh Konsultan,&#xa;    m. Perhitungan dan Gambar Rencana Struktur yang ditanda tangani oleh Perencana Struktur pemegang IPTB,&#xa;&#xa;     n. Persetujuan Hasil Sidang TPKB, apabila ketinggian bangunan 9 lantai atau lebih dan atau bangunan dengan basement lebih dari 1 lantai, atau bangunan dengan struktur khusus.&#xa;    o. Gambar Rencana Instalasi dan Perlengkapan Bangunan, yang ditanda tangani oleh Perencana Instalasi dan Perlengkapan Bangunan pemegang IPTB, yang meliputi bidang-bidang :&#xa;&#xa;        -  Instalasi Listrik Arus Kuat,&#xa;        -  Instalasi Listrik Arus Lemah,&#xa;        -  Instalasi Tata Udara dalam Gedung,&#xa;        -  Instalasi Pemipaan (plumbing),&#xa;        -  Instalasi Transportasi dalam Gedung (Elevator/ Lift),&#xa;        -  Design Report. &#xa;     p. Rekomendasi UKL/UPL dari BPLHD apabila luas bangunan 2.000 sampai dengan 10.000 M2, atau Rekomendasi AMDAL apabila luas bangunan lebih dari 10.000 M2.&#xa;&#xa;     q. Surat Penunjukan Pemborong dan Direksi Pengawas Pelaksanaan Bangunan dari Pemilik Bangunan.&#xa;&#xa;     r. Surat Kuasa Pengurusan dari Pemilik/ Pemohon kepada yang mengurus (bila pengurusan oleh bukan pemilik/pemohon).&#xa;&#xa;3  BIAYA RETRIBUSI IMB.&#xa;Retribusi IMB, dihitung berdasarkan Luas Bangunan x Indek x Harga Satuan Retribusi  (sebagaimana diatur dalam Perda No.3 Tahun 2012),&#xa;Pembayaran Retribusi IMB dapat dilakukan setelah diterbitkan Surat Ketetapan Retribusi Daerah (SKRD) dari BPTSP Provinsi dan pembayaran dapat dilakukan di Kas Daerah/ Bank DKI.&#xa;Setelah diperoleh Bukti Pembayaran Retribusi dari Kas Daerah/ Bank DKI, maka lembar untuk BPTSP diserahkan ke Loket BPTSP&#xa;4.  JANGKA WAKTU PENYELESAIAN IMB.&#xa;IMB diterbitkan oleh Kepala BPTSP Propinsi DKI Jakarta.&#xa;Penyelesaian IMB, sesuai ketentuan dalam SK Gubernur No. 129 Tahun 2012, adalah 25 hari kerja, terhitung sejak persetujuan dokumen teknis.&#xa;IMB yang telah diterbitkan akan diberitahukan melalui SMS atau Telpon kepada pemohon, dan dapat diambil (dengan membawa bukti pembayaran retribusi IMB dan dengan surat kuasa apabila yang mengambil bukan pemohon) ke Loket BPTSP.&#xa;5.  PELAKSANAAN BANGUNAN.&#xa;Pelaksanaan Bangunan dapat dimulai setelah IP/ IMB diterbitkan.&#xa;Papan IMB harus dipasang dilokasi pembangunan, di tempat yang mudah dilihat dari jalan.&#xa;Pelaksanaan bangunan harus sesuai dengan IP/ IMB yang telah diterbitkan.&#xa;Bila terdapat rencana perubahan atau penambahan, maka sebelum dilaksanakan terlebih dahulu harus diajukan PIMB perubahan/ penambahan.&#xa;Dan selama pelaksanaan IMB ( copynya) harus berada di lokasi bangunan, untuk pedoman dalam pembangunan dan pemeriksaan dari petugas pengawasan dari Dinas Penataan Kota."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
